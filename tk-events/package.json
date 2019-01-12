@@ -1,0 +1,25 @@
+{
+  "name": "tk-events",
+  "version": "1.0.0",
+  "description": "TechKids Events to queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edtechkidsvn/tk-events.git"
+  },
+  "keywords": [
+    "techkids",
+    "edu",
+    "events",
+    "rabbitqueue"
+  ],
+  "author": "TechKids Edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edtechkidsvn/tk-events/issues"
+  },
+  "homepage": "https://github.com/edtechkidsvn/tk-events#readme"
+}
