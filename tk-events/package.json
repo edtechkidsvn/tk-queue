@@ -1,10 +1,12 @@
 {
-  "name": "tk-events",
-  "version": "1.1.0",
-  "description": "TechKids Events to queue",
-  "main": "index.ts",
+  "name": "tk-queue",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -13,16 +15,19 @@
   "keywords": [
     "techkids",
     "edu",
-    "events",
-    "rabbitqueue"
+    "rabbitmq"
   ],
   "author": "TechKids Edu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edtechkidsvn/tk-events/issues"
+    "url": "https://github.com/edtechkidsvn/tk-queue/issues"
   },
-  "homepage": "https://github.com/edtechkidsvn/tk-events#readme",
+  "homepage": "https://github.com/edtechkidsvn/tk-queue#readme",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  },
   "dependencies": {
+    "@types/bluebird": "^3.5.25",
     "@types/node": "^10.12.18",
     "amqp-ts": "^1.4.0"
   }
