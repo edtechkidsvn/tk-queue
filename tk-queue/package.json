@@ -1,0 +1,36 @@
+{
+  "name": "tk-queue",
+  "version": "1.2.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edtechkidsvn/tk-events.git"
+  },
+  "keywords": [
+    "techkids",
+    "edu",
+    "rabbitmq"
+  ],
+  "author": "TechKids Edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edtechkidsvn/tk-queue/issues"
+  },
+  "homepage": "https://github.com/edtechkidsvn/tk-queue#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.25",
+    "@types/node": "^10.12.18",
+    "amqp-ts": "^1.4.0"
+  }
+}
